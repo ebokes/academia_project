@@ -1,0 +1,125 @@
+body{
+ margin: 0;
+ padding: 0;
+ color: white;
+ font-family: 'Heebo', sans-serif;
+}
+.background{
+ background-image: url(img/student.jpg);
+ height: 135vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center ;
+}
+.main-container{
+ padding: 30px 70px;
+}
+header{
+ display: flex;
+ position: relative;
+ justify-content: space-between;
+ width: 80%;
+}
+.logo{
+ line-height: 1;
+}
+.logo-text1{
+ margin:0;
+ text-transform: uppercase;
+ font-size: 2em;
+ font-weight: 700;
+}
+.logo-text2{
+ margin:0;
+ text-transform: uppercase;
+ /* font-size: 5px; */
+ font-weight: 400;
+}
+.clock-call{
+ display:flex;
+ justify-content: space-between;
+ width: 40%;
+}
+.time{
+ font-weight: 600;
+}
+nav{
+ background:rgba(255, 255, 255, 0.2);
+ position: relative;
+ display: flex;
+ margin: 20px 0 20px 0
+}
+nav ul{
+ display:flex;
+ justify-content: space-between;
+ width: 50%;
+ list-style: none;
+ padding:5px 20px;
+}
+nav ul li a{
+ text-decoration: none;
+ color: white;
+}
+.trapezium{
+ position: absolute;
+ right:0;
+ height: 0px;
+ width: 20px;
+ border-bottom: 65px solid #1eb2a6;
+ border-left: 20px solid transparent;
+ padding-right: 160px;
+}
+.get{
+ padding-left: 10px;
+ padding-top: 13px;;
+ width: 150px;
+ font-weight: 500;
+ letter-spacing: 2px;
+ font-size: 0.7em;
+ text-transform: uppercase;
+ text-align: center;
+}
+.space{
+ height: 90px;
+}
+.col{
+ width: 520px;
+}
+.best{
+ font-size: 2.4em;
+ font-weight: 600;
+ margin: 5px 0 22px 0;
+ line-height: 45px;
+}
+.welcome{
+ margin: 0;
+ text-transform: uppercase;
+ color: rgba(255, 255, 255, 0.8);
+ letter-spacing: 1.5px;
+ font-size: 0.9em;
+}
+.far{
+ margin: 0 0 20px 0;
+ color: rgba(255, 255, 255, 0.8);
+ 
+}
+button{
+ text-transform: uppercase;
+ border-radius: 4px;
+ padding: 15px;
+ border: none;
+ font-weight: 600;
+ font-size: 0.7em;
+}
+.btn1{
+ background:#1eb2a6; 
+ color: white;
+}
+.btn2{
+ background: white;
+ color: #1eb2a6;
+
+}
+button span{
+ width: 3px;
+}
