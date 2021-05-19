@@ -30,18 +30,19 @@ header{
 .logo-text1{
  margin:0;
  text-transform: uppercase;
- font-size: 2em;
+ font-size: 1.8em;
  font-weight: 700;
 }
 .logo-text2{
  margin:0;
+ font-size: 0.8em;
  text-transform: uppercase;
  font-weight: 400;
 }
 .clock-call-social{
  display:flex;
  justify-content: space-between;
- width:55%;
+ width:58%;
 }
 .date{
  display: flex;
@@ -149,7 +150,7 @@ div img{
 }
 /* Nav bar */
 nav{
- background:rgba(255, 255, 255, 0.2);
+ background:rgba(255, 255, 255, 0.1);
  position: relative;
  display: flex;
  margin: 20px 0 20px 0
@@ -159,7 +160,7 @@ nav ul{
  justify-content: space-between;
  width: 50%;
  list-style: none;
- padding:2px 20px;
+ padding:5px 20px;
 }
 nav ul li{
  font-size: 0.9em;
@@ -174,13 +175,13 @@ nav ul li a:hover{
  right:0;
  height: 0px;
  width: 20px;
- border-bottom: 58px solid #1eb2a6;
+ border-bottom: 62px solid #1eb2a6;
  border-left: 25px solid transparent;
  padding-right: 160px;
 }
 .get{
  padding-left: 10px;
- padding-top: 13px;;
+ padding-top: 14px;
  width: 150px;
  font-weight: 500;
  letter-spacing: 2px;
@@ -219,7 +220,7 @@ nav ul li a:hover{
 button{
  text-transform: uppercase;
  border-radius: 4px;
- padding: 15px;
+ padding: 21px;
  border: none;
  font-weight: 600;
  font-size: 0.7em;
@@ -234,7 +235,7 @@ button{
  color: #1eb2a6;
 }
 .arrow{
- width: 10px;
- height: 10px;
+ width: 9.5px;
+ height: 9.5px;
  padding-left: 10px
 }
